@@ -319,7 +319,7 @@ I was looking for a quick and easy food delivery service in San Franciso. I trie
             </div>
         </section>
         
-        <section class="section-form">
+        <section class="section-form" id="form">
             <div class="row">
                 <h2>We're happy to hear from you</h2>
             </div>
@@ -328,7 +328,7 @@ I was looking for a quick and easy food delivery service in San Franciso. I trie
 
                 <div class="row">
                 <?php
-                
+
                 if($_GET['success'] == 1)
                 {
                     echo "<div class=\"form-msg success\">Your form is successfully submitted. Thankyou!</div>"
@@ -340,7 +340,6 @@ I was looking for a quick and easy food delivery service in San Franciso. I trie
                 }
 
                 ?>
-                   
                     </div>
                     <div class="row">
                         <div class="col span-1-of-3">
